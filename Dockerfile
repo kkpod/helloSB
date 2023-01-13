@@ -16,4 +16,4 @@ RUN mvn -f /home/app/pom.xml clean package
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "/home/app/target/hello_spring_boot-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/home/app/target/hello_spring_boot_j-0.0.1-SNAPSHOT.jar"]
