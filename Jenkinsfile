@@ -21,7 +21,7 @@ pipeline {
 				if(!buildConfigExists){ 
 				  openshift.newBuild("--name=hellospringboot", "--docker-image=registry.redhat.io/jboss-eap-7/eap74-openjdk8-openshift-rhel7", "--binary") 
 				} 
-				openshift.selector("bc", "hellospringboot").startBuild("--from-file=target/hello_spring_boot_j-0.0.1-SNAPSHOT.war", "--follow") } }
+				openshift.selector("bc", "hellospringboot").startBuild("--from-file=target/hello_spring_boot_j-0.0.1-SNAPSHOT.jar", "--follow") } }
         }
       }
     }
