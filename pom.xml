@@ -11,7 +11,7 @@
 	<groupId>com.pod</groupId>
 	<artifactId>hello_spring_boot_j</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<!-- 	<packaging>war</packaging>  -->
+ 	<packaging>war</packaging>
 	<name>hello_spring_boot_j</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
